@@ -1,0 +1,27 @@
+services:
+  factorio:
+    # image: factoriotools/factorio:2.0.41
+    build:
+      context: .
+      dockerfile: DockerFile
+    container_name: factorio
+    # restart: unless-stopped
+    ports:
+      - '34197:34197/udp' # Game port
+      - '27015:27015/tcp' # RCON port
+    volumes:
+      # - ./opt/factorio:/factorio
+      # - ./saves:/factorio/saves
+      # - ./config:/factorio/config
+      # - ./mods:/factorio/mods
+      - ./data:/factorio
+    environment:
+      - ALLOW_REMOTE_ADMINS=false
+      - UPDATE_MODS_ON_START=true
+      - SERVER_NAME=${SERVER_NAME}
+      - SERVER_DESCRIPTION=${SERVER_DESCRIPTION}
+      - SERVER_PASSWORD=${SERVER_PASSWORD}
+      - MAX_PLAYERS=${MAX_PLAYERS}
+      - AUTOSAVE_INTERVAL=5
+      - LATENCY=100
+      - DLC_SPACE_AGE=false

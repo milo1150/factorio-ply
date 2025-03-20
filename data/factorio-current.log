@@ -1,0 +1,50 @@
+   0.001 2025-03-20 12:47:33; Factorio 2.0.41 (build 81968, linux64, headless, space-age)
+   0.001 Operating system: Linux
+   0.002 Program arguments: "/opt/factorio/bin/x64/factorio" "--port" "34197" "--server-settings" "/factorio/config/server-settings.json" "--server-banlist" "/factorio/config/server-banlist.json" "--rcon-port" "27015" "--server-whitelist" "/factorio/config/server-whitelist.json" "--use-server-whitelist" "--server-adminlist" "/factorio/config/server-adminlist.json" "--rcon-password" <private> "--server-id" "/factorio/config/server-id.json" "--mod-directory" "/factorio/mods" "--start-server-load-latest" 
+   0.002 Config path: /opt/factorio/config/config.ini
+   0.002 Read data path: /opt/factorio/data
+   0.003 Write data path: /factorio [71813/233752MB]
+   0.003 Binaries path: /opt/factorio/bin
+   0.023 System info: [CPU:                             Box64 on - @1000 MHz, 8 cores, RAM: 7837 MB]
+   0.024 Environment: DISPLAY=<unset> WAYLAND_DISPLAY=<unset> DESKTOP_SESSION=<unset> XDG_SESSION_DESKTOP=<unset> XDG_CURRENT_DESKTOP=<unset> SDL_VIDEODRIVER=<unset> __GL_FSAA_MODE=<unset> __GL_LOG_MAX_ANISO=<unset> __GL_SYNC_TO_VBLANK=<unset> __GL_SORT_FBCONFIGS=<unset> __GL_YIELD=<unset>
+   0.027 Running in headless mode
+   0.027 Audio is disabled
+   0.032 Info ModManager.cpp:444: FeatureFlag expansion-shaders = false
+   0.032 Info ModManager.cpp:444: FeatureFlag freezing = false
+   0.032 Info ModManager.cpp:444: FeatureFlag quality = false
+   0.032 Info ModManager.cpp:444: FeatureFlag rail-bridges = false
+   0.032 Info ModManager.cpp:444: FeatureFlag segmented-units = false
+   0.033 Info ModManager.cpp:444: FeatureFlag space-travel = false
+   0.033 Info ModManager.cpp:444: FeatureFlag spoiling = false
+   0.052 Loading mod core 0.0.0 (data.lua)
+   0.070 Loading mod base 2.0.41 (data.lua)
+   0.220 Loading mod base 2.0.41 (data-updates.lua)
+   0.267 Checksum for core: 931939137
+   0.267 Checksum of base: 3006295925
+   0.530 Prototype list checksum: 1414197682
+   0.554 Info PlayerData.cpp:64: Local player-data.json available, timestamp 1742474850
+   0.554 Info PlayerData.cpp:71: Cloud player-data.json unavailable
+   0.726 Factorio initialised
+   0.731 Info ServerSynchronizer.cpp:22: nextHeartbeatSequenceNumber(0) initialized Synchronizer nextTickClosureTick(0).
+   0.731 Info ServerMultiplayerManager.cpp:808: updateTick(18446744073709551615) changing state from(Ready) to(PreparedToHostGame)
+   0.731 Info ServerMultiplayerManager.cpp:808: updateTick(18446744073709551615) changing state from(PreparedToHostGame) to(CreatingGame)
+   0.732 Loading map /factorio/saves/_autosave1.zip: 560484 bytes.
+   0.782 Loading level.dat: 730255 bytes.
+   0.786 Info Scenario.cpp:153: Map version 2.0.41-0
+   0.842 Blueprint storage "blueprint-storage-2.dat" was not found, trying to load previous version storage "blueprint-storage.dat"
+   0.846 Loading script.dat: 1222 bytes.
+   0.853 Checksum for script __level__/control.lua: 768925807
+   0.858 Info UDPSocket.cpp:32: Opening socket at (IP ADDR:({0.0.0.0:34197}))
+   0.859 Hosting game at IP ADDR:({0.0.0.0:34197})
+   0.861 Info HttpSharedState.cpp:55: Downloading https://auth.factorio.com/generate-server-padlock-2?api_version=6
+   1.728 Info AuthServerConnector.cpp:110: Obtained serverPadlock for serverHash (dTshWclhDfTckfJvrsfh1OIzoxs2NEi8) from the auth server.
+   1.729 Info ServerMultiplayerManager.cpp:808: updateTick(475) changing state from(CreatingGame) to(InGame)
+   1.741 Info ServerRouter.cpp:668: Asking pingpong servers (pingpong1.factorio.com:34197, pingpong2.factorio.com:34197, pingpong3.factorio.com:34197, pingpong4.factorio.com:34197) for own address
+   1.743 Info UDPSocket.cpp:44: Opening socket for broadcast
+   1.745 Error InterruptibleStdioStream.cpp:60: Got EOF on stdin; closing
+   1.747 Info RemoteCommandProcessor.cpp:126: Starting RCON interface at IP ADDR:({0.0.0.0:27015})
+   1.747 Info CommandLineMultiplayer.cpp:292: Maximum segment size = 100; minimum segment size = 25; maximum-segment-size peer count = 10; minimum-segment-size peer count = 20
+   1.949 Info ServerRouter.cpp:547: Own address is IP ADDR:({49.49.229.80:43854}) (confirmed by pingpong2)
+   1.968 Error ServerMultiplayerManager.cpp:743: Matching server connection failed: Error when creating server game: Missing token.
+   2.019 Info ServerRouter.cpp:547: Own address is IP ADDR:({49.49.229.80:43854}) (confirmed by pingpong3)
+   2.034 Info ServerRouter.cpp:547: Own address is IP ADDR:({49.49.229.80:43854}) (confirmed by pingpong1)
