@@ -944,7 +944,7 @@
         "name": "Name of the game as it will appear in the game lis",
         "description": "Description of the game that will appear in the listing",
         "max_players": 0,
-        "game_time_elapsed": 0,
+        "game_time_elapsed": 1045,
         "has_password": false,
         "tags": 
         [
@@ -958,7 +958,7 @@
       "afk-autokick-interval": 0,
       "enable-whitelist": true
     },
-    "save-name": "_autosave1"
+    "save-name": "mp-save-0"
   },
   "service-username": "",
   "service-token": "",

@@ -25,3 +25,4 @@ services:
       - AUTOSAVE_INTERVAL=5
       - LATENCY=100
       - DLC_SPACE_AGE=false
+      - SAVE_NAME=plysv
